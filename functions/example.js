@@ -4,7 +4,7 @@ exports.handler = function (event, context, callback) {
   console.log('body', body);
 
   return {
-    statusCode: 300,
-    body: JSON.stringify({ message: 'Success' }),
+    statusCode: 200,
+    body: 'success',
   };
 }
